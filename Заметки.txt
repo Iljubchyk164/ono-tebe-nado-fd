@@ -1,0 +1,14 @@
+Header
+Section - preview
+Section - lots
+Sections - about
+Footer
+
+------------blocks----------
+Адрес в футере и хедере
+Overlay - preview, lots
+
+-----------href-------------
+В адресе, в лотах, в переключении между страницами
+
+Некоторый текст весь в верхнем регистре
