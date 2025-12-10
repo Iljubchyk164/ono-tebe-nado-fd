@@ -1,1 +1,123 @@
-/* место для вашего кода */
+/*---------HEADER---------*/
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 293px;
+}
+
+.header-navigation {
+  padding: 133px 36.5px 138px 50px;
+}
+.header-navigation-list {
+  display: flex;
+}
+
+.header-navigation-list-item {
+  text-decoration: underline;
+  margin-left: 32px;
+  list-style: circle;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  font-style: normal;
+}
+
+.header-navigation-list-item:nth-child(1) {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.header-logo {
+  margin: 92px 0 96px 0;
+  width: 148px;
+  height: 105px;
+}
+.header-address {
+  font-style: normal;
+  line-height: 24.3px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0%;
+  padding: 95px 50px 100px 184px;
+}
+
+.header-address span {
+  display: block;
+}
+
+/*-----------MAIN----------*/
+
+.main {
+}
+
+/*-----------PREVIEW----------*/
+
+.preview {
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.preview-heading {
+}
+.preview-heading-text {
+}
+.preview-description {
+}
+.preview-description-text {
+}
+.preview-description-button {
+}
+
+/*-----------LOTS----------*/
+
+.lots {
+}
+.lots-heading {
+}
+.lots-cards {
+}
+.lots-card-item {
+}
+.lots-card-item-content {
+}
+.lots-card-item-content-heading {
+}
+.lots-card-item-content-description {
+}
+.lots-cards-item {
+}
+
+/*-----------ABOUT----------*/
+
+.about {
+}
+.about-logo-container {
+}
+.about-logo {
+}
+.about-text-container {
+}
+.about-heading-text {
+}
+.about-description {
+}
+.about-description-text {
+}
+
+/*-----------FOOTER----------*/
+
+.footer {
+}
+.footer-addli {
+}
+.footer-navigation {
+}
+.footer-navigation-list {
+}
+.footer-navigation-list-item {
+}
+.footer-social {
+}
