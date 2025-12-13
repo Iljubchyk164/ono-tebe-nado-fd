@@ -13,17 +13,23 @@
     <header class="header">
       <nav class="header-navigation">
         <ul class="header-navigation-list">
-          <li class="header-navigation-list-item">главная</li>
-          <li class="header-navigation-list-item">посмотреть лоты</li>
-          <li class="header-navigation-list-item">об аукционе</li>
+          <li class="header-navigation-list-item">
+            <a class="active-page" href="#0">главная</a>
+          </li>
+          <li class="header-navigation-list-item">
+            <a href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header-navigation-list-item">
+            <a href="#0">об аукционе</a>
+          </li>
         </ul>
       </nav>
       <a href="#0">
         <img class="header-logo" src="./images/logo-black.svg" alt="logo" />
       </a>
       <address class="header-address">
-        <span>+9 999 555 5555</span>
-        <span>info@sobaka.ge</span>
+        <span class="text-underline">+9 999 555 5555</span>
+        <span class="text-underline">info@sobaka.ge</span>
         <span>наб. Принсенграхт 263-</span>
         <span>265, Амстердам</span>
       </address>
@@ -31,23 +37,33 @@
     <main class="main">
       <section class="preview">
         <h1 class="preview-heading">
-          <span class="preview-heading-text">Оно</span>
-          <span class="preview-heading-text">Тебе</span>
-          <span class="preview-heading-text">Надо</span>
+          <span class="preview-heading-text text-uppercase">Оно</span>
+          <span class="preview-heading-text text-uppercase text-center"
+            >Тебе</span
+          >
+          <span class="preview-heading-text text-uppercase text-right"
+            >Надо</span
+          >
         </h1>
         <div class="preview-description">
-          <p class="preview-description-text">Аукцион вещей, вкоторые никто не верил</p>
-          <button class="preview-description-button">Сделать ставку</button>
+          <p class="preview-description-text text-uppercase">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="preview-description-button text-uppercase">
+            Сделать ставку
+          </button>
         </div>
       </section>
       <section class="lots">
-        <h2 class="lots-heading">Лоты</h2>
+        <h2 class="lots-heading text-uppercase">Лоты</h2>
         <ul class="lots-cards">
-          <li class="lots-card-item">
+          <li class="lots-cards-item">
             <a href="#1">
-              <article class="lots-card-item-content">
-                <h3 class="lots-card-item-content-heading">Фильм режиссёра, который бросил киношколу</h3>
-                <p class="lots-card-item-content-description">
+              <article class="lots-cards-item-content">
+                <h3 class="lots-cards-item-content-heading">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="lots-cards-item-content-description">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
@@ -55,15 +71,13 @@
               </article>
             </a>
           </li>
-        </ul>
-        <ul>
           <li class="lots-cards-item">
             <a href="#2">
-              <article class="lots-card-item-content">
-                <h3 class="lots-card-item-content-heading">
+              <article class="lots-cards-item-content">
+                <h3 class="lots-cards-item-content-heading">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
-                <p class="lots-card-item-content-description">
+                <p class="lots-cards-item-content-description">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
@@ -74,15 +88,13 @@
               </article>
             </a>
           </li>
-        </ul>
-        <ul>
           <li class="lots-cards-item">
             <a href="#3">
-              <article class="lots-card-item-content">
-                <h3 class="lots-card-item-content-heading">
+              <article class="lots-cards-item-content">
+                <h3 class="lots-cards-item-content-heading">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
-                <p class="lots-card-item-content-description">
+                <p class="lots-cards-item-content-description">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков... Сколько бы вы на такое поставили, если бы не знали,
@@ -92,14 +104,14 @@
             </a>
           </li>
         </ul>
-        <a href="#0">посмотреть больше</a>
+        <a class="lots-link text-underline" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about-logo-container">
           <img class="about-logo" src="./images/logo-white.svg" alt="logo" />
         </div>
         <div class="about-text-container">
-          <h2 class="about-heading-text">Об аукционе</h2>
+          <h2 class="about-heading-text text-uppercase">Об аукционе</h2>
           <div class="about-description">
             <p class="about-description-text">
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -136,9 +148,13 @@
         </ul>
       </nav>
       <div class="footer-social">
-        <a href="youtube.com"><img src="./images/yt.svg" alt="youtube-logo"></a>
-        <a href="vk.com"><img src="./images/vk.svg" alt="vk-logo"></a>
-        <a href="pinterest.com"><img src="./images/pinterest.svg" alt="pinterest-logo"></a>
+        <a href="youtube.com"
+          ><img src="./images/yt.svg" alt="youtube-logo"
+        /></a>
+        <a href="vk.com"><img src="./images/vk.svg" alt="vk-logo" /></a>
+        <a href="pinterest.com"
+          ><img src="./images/pinterest.svg" alt="pinterest-logo"
+        /></a>
       </div>
     </footer>
   </body>
