@@ -20,8 +20,6 @@ a {
   text-transform: uppercase;
 }
 
-
-
 /*---------HEADER---------*/
 
 .header {
@@ -138,8 +136,8 @@ a {
 }
 
 .preview-description-button:hover {
-  transform: scale(1.05);
   transition: all;
+  transform: scale(1.05);
 }
 
 /*-----------LOTS----------*/
@@ -184,7 +182,7 @@ a {
   background-size: cover;
 }
 
-.card-lot-02{
+.card-lot-02 {
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -198,8 +196,8 @@ a {
   background-size: cover;
 }
 
-
 .lots-cards-item-content-heading {
+  z-index: 2;
   font-weight: 700;
   font-size: 22px;
   line-height: 26.4px;
@@ -207,17 +205,16 @@ a {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0;
-  text-transform: uppercase;
   text-underline-offset: 3px;
-    z-index: 2;
+  text-transform: uppercase;
 }
 .lots-cards-item-content-description {
+  z-index: 2;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0%;
-    z-index: 2;
+  letter-spacing: 0;
 }
 .lots-link {
   padding-left: 40px;
@@ -285,19 +282,18 @@ a {
 .footer-address {
   display: flex;
   flex-direction: column;
-font-weight: 400;
-font-size: 18px;
-font-style: normal;
-line-height: 24.3px;
-letter-spacing: 0;
-
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  letter-spacing: 0;
 }
 .footer-navigation {
-font-weight: 400;
-font-size: 18px;
-font-style: normal;
-line-height: 18px;
-letter-spacing: 0;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 0;
 }
 .footer-navigation-list {
   list-style: none;
@@ -328,5 +324,5 @@ letter-spacing: 0;
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-color: rgb(0, 0, 0, .6);
+  background-color: rgb(0, 0, 0, 0.6);
 }
