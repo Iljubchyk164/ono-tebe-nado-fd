@@ -76,9 +76,6 @@ a {
 
 /*-----------MAIN----------*/
 
-.main {
-}
-
 /*-----------PREVIEW----------*/
 
 .preview {
@@ -149,7 +146,7 @@ a {
 
 .lots {
   width: 1052px;
-  margin: 0 auto;
+  margin: 0 auto 120px auto;
 }
 .lots-heading {
   padding: 0 0 30px 40px;
@@ -223,8 +220,6 @@ a {
     z-index: 2;
 }
 .lots-link {
-  display: inline-block;
-  margin-bottom: 118px;
   padding-left: 40px;
   font-weight: 400;
   font-size: 20px;
@@ -238,7 +233,7 @@ a {
   display: flex;
   width: 1052px;
   height: 595px;
-  margin-bottom: 180px;
+  margin: 0 auto 180px auto;
 }
 .about-logo-container {
   display: flex;
@@ -258,13 +253,12 @@ a {
 .about-text-container {
   flex-shrink: 0;
   flex-basis: 693px;
-  padding-top: 133px;
+  margin-top: 140px;
 }
 .about-heading-text {
-  padding-bottom: 100px;
+  padding-bottom: 103px;
   font-weight: 700;
   font-size: 40px;
-  font-style: Bold;
   line-height: 40px;
   letter-spacing: 0;
 }
@@ -309,6 +303,7 @@ letter-spacing: 0;
   list-style: none;
 }
 .footer-navigation-list-item {
+  line-height: 1.2;
   text-align: center;
 }
 .footer-social {
