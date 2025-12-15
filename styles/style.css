@@ -169,7 +169,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 596px;
+  min-height: 596px;
   padding: 48px 40px;
   color: white;
   background-repeat: no-repeat;
